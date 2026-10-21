@@ -238,27 +238,6 @@
           </section>
         </form>
 
-        <script>
-          document.getElementById("contact-form").addEventListener("submit", function (e) {
-            e.preventDefault();
-
-            const name = document.getElementById("name").value.trim();
-            const email = document.getElementById("email").value.trim();
-            const message = document.getElementById("message").value.trim();
-
-            const text = `Hello Brightline Studio!
-Name: ${name}
-Email: ${email}
-Enquiry: ${message}`;
-
-            const whatsappNumber = "YOUR_WHATSAPP_NUMBER";
-            const url = "https://wa.me/" + whatsappNumber +
-              "?text=" + encodeURIComponent(text);
-
-            window.open(url, "_blank");
-          });
-        </script>
-
         <p><strong>WhatsApp:</strong>
           <a href="https://wa.me/254143276657" target="_blank">Chat with us WhatsApp</a>
         </p>
