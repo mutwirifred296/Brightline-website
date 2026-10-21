@@ -164,13 +164,13 @@ if (form && status) {
             return;
         }
 
-        if (
-            !whatsappNumber ||
-            whatsappNumber === "254143276657"
-        ) {
-            status.textContent =
-                "Please add your real WhatsApp number in the JavaScript file.";
-            return;
+    
+if (!whatsappNumber) {
+    status.textContent =
+        "Please add your real WhatsApp number in the JavaScript file.";
+    return;
+}
+
         }
 
         const name = form.elements.name.value.trim();
