@@ -55,8 +55,8 @@ const form = document.querySelector("#contact-form");
 const status = document.querySelector("#form-status");
 
 // Replace this with your WhatsApp number.
-// Kenya example: 2547XXXXXXXX (no +, spaces, or dashes)
-const whatsappNumber = "2547XXXXXXXX";
+// Kenya example: 2547143276657 (no +, spaces, or dashes)
+const whatsappNumber = "254143276657";
 
 if (form && status) {
     const validators = {
