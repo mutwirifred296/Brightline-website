@@ -286,26 +286,7 @@ Enquiry: ${message}`;
     </div>
   </footer>
   <script src="main.js"></script>
-  <script>
-    document.getElementById("contact-form").addEventListener("submit", function (event) {
-      event.preventDefault();
 
-      const name = document.getElementById("name").value.trim();
-      const email = document.getElementById("email").value.trim();
-      const message = document.getElementById("message").value.trim();
-
-      const text = `Hello Brightline Studio!
-      Name: ${name}
-      Email: ${email}
-      Enquiry: ${message}`;
-
-      const whatsappNumber = "254143276657";
-      const url = "https://wa.me/" + whatsappNumber +
-        "?text=" + encodeURIComponent(text);
-
-      window.location.href = url;
-    });
-  </script>
 </body>
 
 </html>
