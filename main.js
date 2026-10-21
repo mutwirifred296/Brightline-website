@@ -171,7 +171,6 @@ if (!whatsappNumber) {
     return;
 }
 
-        }
 
         const name = form.elements.name.value.trim();
         const email = form.elements.email.value.trim();
